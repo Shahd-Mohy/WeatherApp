@@ -18,11 +18,11 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.blueGrey,
+       
           title: const Text(
             'Weather App',
             style: TextStyle(
-                color: Color.fromARGB(255, 202, 202, 202),
+                // color: Color.fromARGB(255, 202, 202, 202),
                 fontWeight: FontWeight.w600),
           ),
           actions: [
@@ -37,7 +37,7 @@ class _HomeViewState extends State<HomeView> {
                   padding: EdgeInsets.only(right: 20.0),
                   child: Icon(
                     Icons.search_rounded,
-                    color: Color.fromARGB(255, 202, 202, 202),
+                    // color: Color.fromARGB(255, 202, 202, 202),
                     size: 30,
                   ),
                 ))
